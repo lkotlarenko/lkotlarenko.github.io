@@ -1,0 +1,59 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #1d1e22;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.link-green {
+  text-decoration: none;
+  color: #2fc18c;
+}
+
+.link-green:hover {
+  color: #97e0c5;
+}
+
+.page-title {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-size: 26px;
+  display: block;
+  margin: 30px auto;
+  background: #2fc18c;
+  border-radius: 10px;
+  max-width: 300px;
+  height: auto;
+  text-decoration: none;
+}
+
+.page-title:hover {
+  opacity: 80%;
+}
+
+.profile-pic {
+  max-width: 400px;
+  height: auto;
+  padding-left: 5vw;
+  padding-right: 40px;
+}
+
+.profile-pic:hover {
+  opacity: 90%;
+}
+
+.center-text {
+  padding-left: 5vw;
+  padding-right: 40px;
+  width: 85%;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
