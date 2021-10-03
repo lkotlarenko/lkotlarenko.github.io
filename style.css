@@ -18,6 +18,26 @@ body {
   color: #97e0c5;
 }
 
+.header {
+  position: fixed;
+  padding-left: 20px;
+  top: 0;
+  padding: 5px;
+  color: black;
+  font-size: 9px;
+  display: block;
+  background: #2fc18c;
+  border-radius: 5px;
+  max-width: 100px;
+  height: auto;
+  text-decoration: none;
+}
+
+.header:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
 .page-title {
   text-align: center;
   padding: 20px;
@@ -64,11 +84,18 @@ body {
   text-align: center;
 }
 
+.translate-button {
+  align-self: center;
+  height: 30px;
+  width: 40px;
+}
+
 .icon {
   align-self: center;
   height: 30px;
   width: 40px;
 }
+
 .icon:hover {
   opacity: 90%;
   animation: shake 0.5s;
