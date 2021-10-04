@@ -68,7 +68,6 @@ body {
 
 .profile-pic:hover {
   opacity: 90%;
-  /* shake animation thanks to w3schools S2 */
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
@@ -102,6 +101,7 @@ body {
   animation-iteration-count: infinite;
 }
 
+/* shake animation thanks to w3schools S2 */
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
