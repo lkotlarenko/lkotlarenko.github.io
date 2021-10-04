@@ -9,16 +9,13 @@ body {
   margin: 0 0 5px;
 }
 
-.link-green {
-  text-decoration: none;
-  color: #2fc18c;
+.center-text {
+  padding-left: 5vw;
+  padding-right: 10px;
+  width: 91%;
 }
 
-.link-green:hover {
-  color: #97e0c5;
-}
-
-.header {
+.translate-button {
   position: fixed;
   padding-left: 20px;
   top: 0;
@@ -33,9 +30,15 @@ body {
   text-decoration: none;
 }
 
-.header:hover {
+.translate-button:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+}
+
+.translate-icon {
+  align-self: center;
+  height: 30px;
+  width: 40px;
 }
 
 .page-title {
@@ -58,8 +61,14 @@ body {
   animation-iteration-count: infinite;
 }
 
+.pg-title {
+  width: 100%;
+  text-align: center;
+}
+
 .profile-pic {
   max-width: 400px;
+  float: left;
   height: auto;
   padding-left: 2vw;
   padding-right: 20px;
@@ -68,40 +77,32 @@ body {
 
 .profile-pic:hover {
   opacity: 90%;
-  /* shake animation thanks to w3schools S2 */
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
 
-.center-text {
-  padding-left: 5vw;
-  padding-right: 10px;
-  width: 91%;
-}
-
-.container {
-  width: 100%;
-  text-align: center;
-}
-
-.translate-button {
+.icons {
   align-self: center;
   height: 30px;
   width: 40px;
 }
 
-.icon {
-  align-self: center;
-  height: 30px;
-  width: 40px;
-}
-
-.icon:hover {
+.icons:hover {
   opacity: 90%;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
 
+.link-green {
+  text-decoration: none;
+  color: #2fc18c;
+}
+
+.link-green:hover {
+  color: #97e0c5;
+}
+
+/* shake animation thanks to w3schools S2 */
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
